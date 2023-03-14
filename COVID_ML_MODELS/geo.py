@@ -50,3 +50,5 @@ df['Continent'] = df['Country'].apply(get_continent)
 
 # save the updated dataframe to the CSV file
 df.to_csv("covid_fat_death2.csv", index=False)
+
+print('hello world')
